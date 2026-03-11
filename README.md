@@ -28,4 +28,4 @@ No server or build step is required. Everything runs from the three static files
 - `script.js` — Game flow, target movement, and popup logic.
 - `sounds/gunshot.mp3` — Gunshot sound effect (add this file for hit feedback).
 
-Have fun, and happy hunting.
+Have fun, and happy hunting!
