@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big Game Hunters Classic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Start Screen -->
+  <div id="start-screen" class="screen active">
+    <h1 class="title">Big Game Hunters Classic</h1>
+    <p class="subtitle">Matthew Houghton Edition</p>
+    <button id="start-btn" class="btn">Start Hunt</button>
+  </div>
+
+  <!-- Game Screen -->
+  <div id="game-screen" class="screen">
+    <div id="forest-bg"></div>
+    <div id="target-container">
+      <div id="target" class="target" data-index="0">
+        <img id="target-logo" class="target-logo" src="" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Hit Effect (brief flash) -->
+  <div id="hit-effect" class="hit-effect" aria-hidden="true"></div>
+
+  <!-- Popup Modal -->
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-content">
+      <div id="modal-image-wrap" class="modal-image-wrap">
+        <img id="modal-image" class="modal-image" src="" alt="" />
+        <div id="modal-gallery" class="modal-gallery" aria-hidden="true"></div>
+      </div>
+      <h2 id="modal-title" class="modal-title"></h2>
+      <p id="modal-text" class="modal-text"></p>
+      <button id="continue-btn" class="btn">Continue Hunt</button>
+    </div>
+  </div>
+
+  <!-- Final Screen -->
+  <div id="final-screen" class="screen">
+    <h1 class="final-title">DATA DEMOCRATIZED</h1>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
